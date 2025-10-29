@@ -6,7 +6,7 @@ public enum PlotType{
     COMM_OFFICE(5000000),
     PARKING(200000);
 
-     public double basePrice;
+     private double basePrice;
     
      PlotType(double basePrice){ 
            this.basePrice=basePrice;
@@ -17,7 +17,5 @@ public enum PlotType{
 
      return basePrice;
 }
-
-
 
 }
